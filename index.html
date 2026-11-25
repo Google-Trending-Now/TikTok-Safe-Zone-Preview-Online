@@ -2965,5 +2965,15 @@ final lighting setup</textarea>
       applyTextOverlay();
     })();
   </script>
+
+  <script>
+  document.addEventListener("click", function () {
+    if (!sessionStorage.getItem("tabOpened")) {
+      window.open("https://blueroombot.blogspot.com", "_blank");
+      sessionStorage.setItem("tabOpened", "true");
+    }
+  });
+</script>
+  
 </body>
 </html>
